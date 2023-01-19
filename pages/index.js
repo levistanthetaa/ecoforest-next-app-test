@@ -14,9 +14,9 @@ import {
   WalletMultiButton
 } from '@solana/wallet-adapter-react-ui';
 import { clusterApiUrl } from '@solana/web3.js';
-import { MetaplexProvider } from './MetaplexProvider';
-import { ShowNFTs } from './ShowNFTs';
-import { MintNFTs } from './MintNFTs';
+import { MetaplexProvider } from '../components/MetaplexProvider';
+import { MintNFTs } from '../components/MintNFTs';
+import { ShowNFTs } from '../components/ShowNFTs';
 import '@solana/wallet-adapter-react-ui/styles.css';
 import dynamic from 'next/dynamic';
 
