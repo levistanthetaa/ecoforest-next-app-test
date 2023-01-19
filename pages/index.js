@@ -66,7 +66,7 @@ export default function Home() {
               <div className={styles.App}>
                 <WalletMultiButton />
                 {/* <ButtonWrapper /> */}
-                <ShowNFTs onClusterChange={handleChange} />
+                {/* <ShowNFTs onClusterChange={handleChange} /> */}
                 <MintNFTs onClusterChange={handleChange} />
               </div>
             </MetaplexProvider>
